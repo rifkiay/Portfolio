@@ -431,7 +431,7 @@
     }
     </style>
     
-    <script>
+    {% comment %} <script>
         function openModal() {
             document.getElementById("predictionModal").style.display = "block";
         }
@@ -475,7 +475,7 @@
             })
             .catch(err => alert("Gagal memproses gambar."));
         });        
-    </script>
+    </script> {% endcomment %}
 
     </script>
     <script src="{% static 'js/plugins.js' %}"></script>
