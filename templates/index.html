@@ -240,6 +240,20 @@
             <div class="row folio-entries">
                 <!-- === GALLERY IMAGE / THUMBNAIL === -->
                 <div class="column entry" style="position: relative; text-align: center; cursor: pointer;" onclick="openModal()">
+                    <img src="{% static 'images/folio/llama.png' %}" alt="Rest API" style="width:100%; display: block;">
+                    <div class="image-overlay-text">
+                        API Finetunning
+                        <br>
+                        <a href="/api/chat/" target="_blank" style="color: white; text-decoration: none; font-size: smaller;" onclick="event.stopPropagation()">
+                            View API Endpoint
+                        </a>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+                <!-- === GALLERY IMAGE / THUMBNAIL === -->
+                <div class="column entry" style="position: relative; text-align: center; cursor: pointer;" onclick="openModal()">
                     <img src="{% static 'images/folio/acne.png' %}" alt="Acne Classification" style="width:100%; display: block;">
                     <div class="image-overlay-text">
                         Acne Classification
